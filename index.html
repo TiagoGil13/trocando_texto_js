@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>atividade de web</title>
 </head>
 <body>
-    <div>
-        <p>mudança de texto em javascript</p>
+    <div id="mudando_texto">
+        <p id="texto_de_mudança">mudança de texto em javascript</p>
     </div>
 
-    <script>
-        function changeText() {
-            document.querySelector('p').innerText = 'Texto alterado com sucesso!';
-        }
-        changeText();
-    </script>
+    <div>
+        <button id="changeButton">
+            <p id="changeButtonText">teste do clic</p>
+        </button>
+    </div>
+    <script src="/script.js"></script>
 </body>
 </html>
